@@ -14,7 +14,7 @@ def load_sarif_file(filepath):
         # ❌ If any error occurs, raise a RuntimeError with explanation
         raise RuntimeError(f"❌ Error reading file: {e}")
 
-# ✅ Main validation logic
+# Main validation logic
 def main():
     # Load and parse the SARIF file
     sarif_data = load_sarif_file("findings.json")
